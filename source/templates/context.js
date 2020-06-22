@@ -1,3 +1,9 @@
 import { template } from '../../references/quantum.js';
 
-export const context = template('', '');
+const html = `
+`;
+
+const css = `
+`;
+
+export const context = template(html, css);
