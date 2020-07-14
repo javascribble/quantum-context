@@ -1,12 +1,15 @@
-import { Quantum, define } from '../../references/quantum.js';
-import { context } from '../templates/context.js';
+import { Component } from '../../references/quantum.js';
 
-export class Context extends Quantum {
+export class Context extends Component {
     constructor() {
-        super(context);
+        super();
 
-        //add radial
+        // TODO: Add radial attribute.
     }
+
+    static template = document.querySelector('#quantum-context');
+
+    static attributes = [];
 }
 
-define(Context);
+customElements.define('quantum-context', Context);
