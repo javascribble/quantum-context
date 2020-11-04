@@ -1,13 +1,14 @@
+import { Component, template, define } from '../import.js';
 import html from '../templates/context.js';
 
-export class Context extends quantum.Component {
+export class Context extends Component {
     constructor() {
         super();
 
         // TODO: Add radial attribute.
     }
 
-    static template = quantum.template(html);
+    static template = template(html);
 }
 
-quantum.define('quantum-context', Context);
+define('quantum-context', Context);
