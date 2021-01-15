@@ -1,7 +1,7 @@
-import '/node_modules/@javascribble/quantum/source/export.js';
-import '/source/export.js';
+import '/node_modules/@javascribble/quantum/source/main.js';
+import '/source/main.js';
 
-quantum.define('sample-container', class SampleContainer extends quantum.Component {
+define('sample-container', class SampleContainer extends Component {
     testMethod1() {
         console.log('invoked test method 1');
     }

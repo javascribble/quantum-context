@@ -1,1 +1,3 @@
-export * from './elements/context.js';
+import * as context from './elements/context.js';
+
+Object.assign(window, context);
