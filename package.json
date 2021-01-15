@@ -1,7 +1,7 @@
 {
     "name": "@javascribble/quantum-context",
     "description": "",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "license": "MIT",
     "dependencies": {
         "@javascribble/quantum": "^1.0.29"
