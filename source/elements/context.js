@@ -1,5 +1,7 @@
 import html from '../templates/context.js';
 
+const { Component, template, define } = quantum;
+
 export class Context extends Component {
     constructor() {
         super();
