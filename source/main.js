@@ -1,3 +1,3 @@
-import * as context from './elements/context.js';
+import { Context } from './elements/context.js';
 
-Object.assign(quantum, context);
+Quantum.Context = Context;

@@ -1,8 +1,6 @@
 import html from '../templates/context.js';
 
-const { Component, template, define } = quantum;
-
-export class Context extends Component {
+export class Context extends Quantum {
     constructor() {
         super();
 
@@ -28,8 +26,6 @@ export class Context extends Component {
         });
     }
 
-    static template = template(html);
-
     static get observedAttributes() { return ['radial']; }
 
     #show(event) {
@@ -49,4 +45,4 @@ export class Context extends Component {
     }
 }
 
-define('quantum-context', Context);
+Context.define('quantum-context', html);
