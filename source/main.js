@@ -1,3 +1,1 @@
-import { Context } from './elements/context.js';
-
-Quantum.Context = Context;
+import './elements/context.js';
