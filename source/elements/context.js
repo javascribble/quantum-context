@@ -1,3 +1,5 @@
+import context from '../templates/context.js';
+
 export class Context extends Quantum {
     constructor() {
         super();
@@ -42,3 +44,5 @@ export class Context extends Quantum {
         });
     }
 }
+
+Context.define('quantum-context', context);
